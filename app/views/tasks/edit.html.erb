@@ -1,0 +1,18 @@
+<h1>Editing task</h1>
+
+<% if current_teacher %>
+  <%= render "form", task: @task %>
+<% elsif current_student %>
+  <%= render "form", task: @task.status %>
+<% end %>
+
+<br>
+
+<div>
+  <%
+=begin%>
+ <%= link_to "Show this task", @task %>  
+<%
+=end%>
+  <%= link_to "Back to tasks", tasks_path %>
+</div>

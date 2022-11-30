@@ -1,0 +1,30 @@
+<p style="color: green"><%= notice %></p>
+
+
+
+<%
+=begin%>
+ <%if current_student%>
+  <%= render current_student.tasks %>
+<%elsif current_teacher%>
+  <%= render current_teacher.tasks %> 
+<%end%> 
+<%
+=end%>
+
+
+
+ <%= render @task %> 
+
+
+<div>
+  
+    <%= link_to "Edit this task", edit_task_path(@task) %> 
+
+
+  <%= link_to "Back to tasks", tasks_path %>
+  
+  <% if current_teacher %>
+    <%= button_to "Destroy this task", @task, method: :delete %>
+  <% end %>
+</div>

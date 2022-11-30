@@ -1,0 +1,100 @@
+.iniciodesesin-admin-usuario-contrasea-container {
+  min-height: 100vh;
+}
+.iniciodesesin-admin-usuario-contrasea-iniciodesesin-admin-usuario-contrasea {
+  width: 100%;
+  height: 1024px;
+  display: flex;
+  overflow: hidden;
+  position: relative;
+  align-items: flex-start;
+  flex-shrink: 0;
+  border-color: transparent;
+  background-color: rgba(255, 246, 201, 1);
+}
+.iniciodesesin-admin-usuario-contrasea-vector {
+  top: 838px;
+  left: 1210px;
+  width: 170px;
+  height: 142px;
+  position: absolute;
+}
+.iniciodesesin-admin-usuario-contrasea-text {
+  top: 190px;
+  left: 456px;
+  color: rgba(0, 0, 0, 1);
+  height: auto;
+  position: absolute;
+  font-size: 64px;
+  align-self: auto;
+  font-style: Regular;
+  text-align: left;
+  font-family: Ribeye;
+  font-weight: 400;
+  line-height: normal;
+  font-stretch: normal;
+  margin-right: 0;
+  margin-bottom: 0;
+  text-decoration: none;
+}
+.iniciodesesin-admin-usuario-contrasea-rectangle13 {
+  top: 415px;
+  left: 456px;
+  width: 529px;
+  height: 97px;
+  position: absolute;
+  border-color: transparent;
+  border-radius: 16px;
+}
+.iniciodesesin-admin-usuario-contrasea-rectangle14 {
+  top: 631px;
+  left: 456px;
+  width: 529px;
+  height: 97px;
+  position: absolute;
+  border-color: transparent;
+  border-radius: 16px;
+}
+.iniciodesesin-admin-usuario-contrasea-text2 {
+  top: 360px;
+  left: 456px;
+  color: rgba(0, 0, 0, 1);
+  height: auto;
+  position: absolute;
+  font-size: 40px;
+  align-self: auto;
+  font-style: Regular;
+  text-align: left;
+  font-family: Ribeye;
+  font-weight: 400;
+  line-height: normal;
+  font-stretch: normal;
+  margin-right: 0;
+  margin-bottom: 0;
+  text-decoration: none;
+}
+.iniciodesesin-admin-usuario-contrasea-text4 {
+  top: 576px;
+  left: 456px;
+  color: rgba(0, 0, 0, 1);
+  height: auto;
+  position: absolute;
+  font-size: 40px;
+  align-self: auto;
+  font-style: Regular;
+  text-align: left;
+  font-family: Ribeye;
+  font-weight: 400;
+  line-height: normal;
+  font-stretch: normal;
+  margin-right: 0;
+  margin-bottom: 0;
+  text-decoration: none;
+}
+.iniciodesesin-admin-usuario-contrasea-vector1 {
+  top: 980px;
+  left: 207px;
+  width: 170px;
+  height: 142px;
+  position: absolute;
+}

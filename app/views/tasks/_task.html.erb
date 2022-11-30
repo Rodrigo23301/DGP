@@ -1,0 +1,23 @@
+<div id="<%= dom_id task %>">
+  <p>
+    <strong>Status:</strong>
+    <% if task.status %>
+      Completada
+    <% elsif !task.status %>
+      No completada
+    <% end %>
+  </p>
+
+  <p>
+    <strong>Description:</strong>
+    <%= task.description %>
+  </p>
+  
+  <% if current_teacher %>
+    <%= link_to "Edit this task", edit_task_path(task) %>  
+  <% end %>
+  ----------------------------------------------- 
+
+
+      
+</div>
